@@ -530,7 +530,6 @@ body:not(.user-is-tabbing) a:focus {
         margin-right: var(--gutter-medium);
     }
 }
-
 /* --------------------------------------- */
 /* ----- About ----- */
 /* --------------------------------------- */
@@ -553,17 +552,22 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 @media(min-width: 901px) {
-
-    width: 70%; /* Increase the width as per your preference */
     .about__text {
-        flex: 0 0 35%;
+        flex: 0 0 70%; /* Increase width to 70% */
+        padding-right: var(--gutter-normal); /* If needed, adjust this to add some space between the text and the photo */
     }
-    
+
     .about__photo-container {
-        width: 30%;
-        flex: 1;
+        flex: 1; /* Maintain the flexibility of the container */
+        width: 30%; /* Decrease width to 30% */
         margin: 0 var(--gutter-huge) 0 0;
     }
+}
+
+h2 {
+    font-size: 2em; /* Adjust size as needed */
+    color: #4a4a4a; /* Adjust color as needed */
+    margin-bottom: 20px; /* Adjust margin as needed */
 }
 
 /* --------------------------------------- */
