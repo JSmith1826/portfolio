@@ -553,11 +553,14 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 @media(min-width: 901px) {
+
+    width: 70%; /* Increase the width as per your preference */
     .about__text {
         flex: 0 0 35%;
     }
     
     .about__photo-container {
+        width: 30%;
         flex: 1;
         margin: 0 var(--gutter-huge) 0 0;
     }
