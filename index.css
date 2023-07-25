@@ -87,7 +87,7 @@ body {
 
 @media(max-width: 1340px) {
     .row {
-        max-width: 1100px;
+        /* max-width: 1100px; */
     }
 }
 
