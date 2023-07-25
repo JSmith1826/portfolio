@@ -1,6 +1,7 @@
 # Ignore directories
 /TEMP/
 /archive/
+/full_library/
 
 
 # Ignore Python build artifacts
