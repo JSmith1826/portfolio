@@ -6,6 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
 
+  <!-- CSS -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
   
   <title>
     Justin B. Smith | Portfolio
@@ -34,8 +43,12 @@
     <div class="row">
       <nav class="nav" role="navigation">
         <ul class="nav__items">
-          <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+          <li class="nav__item"><a href="#work" class="nav__link">Tech Projects</a></li>
           <!-- <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li> -->
+          <li class="nav__item">
+            <a href="#food-and-hospitality" class="nav__link">Food and Hospitality</a>
+          </li>
+          
           <li class="nav__item">
             <a href="#about" class="nav__link">About</a>
           </li>
@@ -58,39 +71,83 @@
     </div>
   </header>
 
-  <main role="main">
-
-      <!-- ***** Clients ***** -->
-
-    
+   
     <!-- Section with simple bullet list of hard and soft skills -->
+  <main role="main">
     
-    <div style="width:60%; margin:auto; padding-top:20px;">
-      <h3>Technical Skills</h3>
-      <p style="display:flex; justify-content:space-between;">
-          <a href="#" title="Python programming for tasks such as data analysis, web scraping, and data cleaning" style="text-decoration:none;">Python</a> /
-          <a href="#" title="Proficient with MS Office suite, especially Excel" style="text-decoration:none;">MS Office/Excel</a> /
-          <a href="#" title="Experience in scraping web data for analysis" style="text-decoration:none;">Web Scraping</a> /
-          <a href="#" title="Google Earth, OpenStreetMap" style="text-decoration:none;">Mapping</a> /
-          <a href="#" title="Experience in JavaScript for web development" style="text-decoration:none;">JavaScript</a>
-      </p>
-      
-      <h3>Soft Skills</h3>
-      <p style="display:flex; justify-content:space-between;">
-          <a href="#" title="Ability to excel in a variety of roles and environments" style="text-decoration:none;">Adaptability</a> /
-          <a href="#" title="Communicating effectively with diverse groups of people" style="text-decoration:none;">Communication</a> /
-          <a href="#" title="Solving complex logistical or technical problems" style="text-decoration:none;">Problem Solving</a> /
-          <a href="#" title="Working in various team settings" style="text-decoration:none;">Teamwork</a> /
-          <a href="#" title="Leading teams in the hospitality sector" style="text-decoration:none;">Leadership</a> /
-          <a href="#" title="Creativity in product selection, web design, and repurposing goods" style="text-decoration:none;">Creativity</a> /
-          <a href="#" title="Managing time effectively in high-stress environments" style="text-decoration:none;">Time Management</a> /
-          <a href="#" title="Paying attention to detail in tasks such as picking truffles and data cleaning" style="text-decoration:none;">Attention to Detail</a>
-      </p>
-    </div>
+    <section class="work" id="work">
+      <div class="row">
+        <div style="width: 90%; margin:auto; padding-top:20px; text-align: justify;">
+        <h3>Technical Skills</h3>
+        <p style="width: 100%; justify-content:space-between"></p>
+        
+          
+            <p>
+              <a href="#" title="Python programming for tasks such as data analysis, web scraping, and data cleaning" style="text-decoration:none;">Python</a> |
+              <a href="#" title="Proficient with MS Office suite, especially Excel" style="text-decoration:none;">MS Office/Excel</a> |
+              <a href="#" title="Experience in scraping web data for analysis" style="text-decoration:none;">Web Scraping</a> |
+              <a href="#" title="Google Earth, OpenStreetMap" style="text-decoration:none;">Mapping</a> |
+              <a href="#" title="Experience in JavaScript for web development" style="text-decoration:none;">JavaScript</a> |
+              <a href="#" title="PostgreSQL, MongoDB " style="text-decoration:none;">SQL</a> |
+              <a href="#" title="Tableau, Power BI, Google Data Studio" style="text-decoration:none;">Data Visualization</a> |
+              <a href="#" title="Pandas, NumPy, Matplotlib, Seaborn" style="text-decoration:none;">Data Analysis</a>
+              
+            </p>
+        
+        <h3>Soft Skills</h3>
+            <p>
+              
+              <a href="#" title="Ability to excel in a variety of roles and environments" style="text-decoration:none;">Adaptability</a> |
+              <a href="#" title="Communicating effectively with diverse groups of people" style="text-decoration:none;">Communication</a> |
+              <a href="#" title="Solving complex logistical or technical problems" style="text-decoration:none;">Problem Solving</a> |
+              <a href="#" title="Working in various team settings" style="text-decoration:none;">Teamwork</a> |
+              <a href="#" title="Leading teams in the hospitality sector" style="text-decoration:none;">Leadership</a> |
+              <a href="#" title="Creativity in product selection, web design, and repurposing goods" style="text-decoration:none;">Creativity</a> |
+              <a href="#" title="Managing time effectively in high-stress environments" style="text-decoration:none;">Time Management</a> |
+              <a href="#" title="Paying attention to detail in tasks such as picking truffles and data cleaning" style="text-decoration:none;">Attention to Detail</a>
+            </p>
+        </div>
+      </div>
+    </section>
   
   
     
-  
+    
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+
+            <p>
+              I'm a tech enthusiast who thrives on variety, adaptability, and learning. My path has taken me through the dynamic world of hospitality, the demanding field of logistics, and the creative space of startups. In each role, I found myself drawn to the unique challenges and intricate details that others often overlooked.</p>
+          <p>
+              From managing bustling kitchens and discerning the quality of artisanal charcuterie and cheeses to helping launch a canoe and kayak livery, and even dabbling in the ever-evolving field of medical cannabis - my journey has been anything but ordinary. One consistent thread has been my passion for solving problems, often with a technological slant. Whether routing delivery vehicles, designing websites, or managing social media, I've always found a way to incorporate my love for tech.
+          </p>
+              Recently, I embarked on a more formal tech journey by completing a six-month Data Analytics Bootcamp. This intensive training has equipped me with skills in Python, JavaScript, and Tableau, adding depth to my natural curiosity and problem-solving abilities. 
+          <p>
+              Whether it's cleaning up data, creating engaging visualizations, or mapping data onto Google Earth or OpenStreetMap, I've honed the ability to transform complex data into actionable insights. I'm excited to leverage this potent combination of diverse experience and technical acumen to tackle your business challenges.
+          </p> 
+          <p>
+              Let's connect and create something extraordinary together!
+          </p>
+          
+            <!-- Provide a link to your resume -->
+            <a href="./images/Justin Smith - Resume - 2023.pdf" class="btn">My Resume</a>
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/smithj/photo.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
         
     
     <!-- ***** Work ***** -->
@@ -102,14 +159,15 @@
 
     <section class="work" id="work">
       <div class="row">
-        <h2>Projects</h2>
+        <h2>Tech Projects</h2>
         <div class="work__boxes">
 
           <div class="work__box">
             <div class="work__text">
               <h3>The Michigan High School Sports Atlas</h3>
               <p>
-                Scrapes, matches, catagorizes, slices, analysis and visualizes athletic results from 10 different high school sports over 10 years
+                Using Python tools to scrape, clean, match, catagorize, slice, analyse and visualize athletic results from 10 different high school sports over 10 years.</p>
+                <p>Tableau Public was used to create a dashboard that allows users to explore the data and compare schools, conferences, and regions.
                 </p>
                 
                 
@@ -140,9 +198,16 @@
             <div class="work__text">
               <h3>Baseball Park Project</h3>
               <p>
-                Personal interest project that plots over 700 baseball parks ranging from youth fields to major league and international stadiums to compare field dimensions and other spatial properties that influence the outcomes of baseball games
-              </p>
-              
+                An ongoing machine learning project to evaluate baseball fields using satellite mapping, spatial data 
+                , weather data and game results in an effort to understand which
+                 parameters play large rolls in the outcome of baseball games </p>
+                <p>So far the project that plots over 1000 baseball parks ranging from youth fields to 
+                  major league and international stadiums. A future goal is to use AI to better identify and plot the locations and dimentions of 
+                baseball parks using publically available satellite</p>
+                   <p>In addition to 10 years of Michigan high school baseball results data from over                     12,000 NCAA Division 1 college baseball games was scraped from ESPN.com, matched to geographic and weather data in order to 
+                    create a dataset that can be used to train a machine learning model to predict the outcome of baseball games.</p>
+
+                            
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" class="client__logo"/>         
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg" class="client__logo"/>
             
@@ -159,7 +224,7 @@
                 <a href="https://jsmith1826.github.io/BB_parks/" target="_blank" class="link__text">
                   Visit Site <span>&rarr;</span>
                 </a>
-                <a href="https://github.com/JSmith1826/BB_parks" title="GitHub Repo" target="_blank">
+                <a href="https://github.com/JSmith1826/Baseball_ML" title="GitHub Repo" target="_blank">
                   <img src="./images/github.svg" class="work__code" alt="GitHub">
                 </a>
               </div>
@@ -234,45 +299,73 @@
   
     
 
-    <!-- ***** About ***** -->
 
-    <section class="about" id="about">
-      <div class="row">
-        <h2>About Me</h2>
-        <div class="about__content">
-          <div class="about__text">
-            <!-- Replace the below paragraph with info about yourself -->
-            <p>
-              I'm a tech enthusiast who thrives on variety, adaptability, and learning. My path has taken me through the dynamic world of hospitality, the demanding field of logistics, and the creative space of startups. In each role, I found myself drawn to the unique challenges and intricate details that others often overlooked.</p>
-          <p>
-              From managing bustling kitchens and discerning the quality of artisanal charcuterie and cheeses to helping launch a canoe and kayak livery, and even dabbling in the ever-evolving field of medical cannabis - my journey has been anything but ordinary. One consistent thread has been my passion for solving problems, often with a technological slant. Whether routing delivery vehicles, designing websites, or managing social media, I've always found a way to incorporate my love for tech.
-          </p>
-              Recently, I embarked on a more formal tech journey by completing a six-month Data Analytics Bootcamp. This intensive training has equipped me with skills in Python, JavaScript, and Tableau, adding depth to my natural curiosity and problem-solving abilities. 
-          <p>
-              Whether it's cleaning up data, creating engaging visualizations, or mapping data onto Google Earth or OpenStreetMap, I've honed the ability to transform complex data into actionable insights. I'm excited to leverage this potent combination of diverse experience and technical acumen to tackle your business challenges.
-          </p> 
-          <p>
-              Let's connect and create something extraordinary together!
-          </p>
-          
-            <!-- Provide a link to your resume -->
-            <a href="./images/Justin Smith - Resume - 2023.pdf" class="btn">My Resume</a>
-          </div>
+<!-- ***** Food & Hospitality ***** -->
 
-          <div class="about__photo-container">
-            <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/smithj/photo.jpg" alt="" />
-          </div>
+<!-- VERSION 1 -->
+
+<section id="food-and-hospitality">
+  <div class="row">
+    <h2>Food and Hospitality Experience</h2>
+    <p>With over 14 years of diverse experience in the food and hospitality industry, I have honed a wide range of skills and developed a deep understanding of food ingredients, handling, and processing techniques. </p>
+    <div id="homeCookingCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-interval="10000">
+          <h3>Independent Restaurants and Startups</h3>
+          <img class="d-block w-100" src="images/food/food_collage/Independent Restuarants.png" alt="Independent Restaurants">
+        </div>
+        <div class="carousel-item" data-interval="10000">
+          <h3>Supply Chains: Local, Wild, and Exotic</h3>
+          <img class="d-block w-100" src="images/food/food_collage/Wild & Local Supply Chain.png" alt="Supply Chain and Logistics">
+        </div>
+        <div class="carousel-item" data-interval="10000">
+          <h3>Large and Special Event Experience</h3>
+          <img class="d-block w-100" src="images/food/food_collage/Large Events & Banquets.png" alt="Large and Special Events">
+        </div>
+        <div class="carousel-item" data-interval="10000">
+          <h3>Home Cooking</h3>
+          <img class="d-block w-100" src="images/food/food_collage/Home Cooking.png" alt="Home Cooking">
+        </div>
+        <div class="carousel-item" data-interval="10000">
+          <h3>Home Baking</h3>
+          <img class="d-block w-100" src="images/food/food_collage/Baking.png" alt="Home Baking">
         </div>
       </div>
-    </section>
-  </main>
 
+      <a class="carousel-control-prev" href="#homeCookingCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#homeCookingCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <p>My journey started like most in the hospitality industy washing dishes at a pizza and sub shop as a young teen
+      eventually and leading to roles
+       such as Sous Chef at back top back Best new Restuarant Winners, Warehouse Manager, Cheese Monger, and Quality Control Specialist.</p>
+       
+       <p>Throughout my career, I've had the privilege of working in an eclectic array of culinary environments, 
+        from esteemed fine dining establishments to innovative mobile food operations. This journey has allowed me to 
+        hone my skills across a broad spectrum of cuisines, and to collaborate with a diverse and talented cohort of
+         chefs hailing from England, the US, Austria, and India. Notably, as part of a Visiting Chef Series at my long term employeer,
+          I had the opportunity to work alongside industry luminaries, absorbing invaluable insights and techniques. </p>
+          
+          <p>This rich tapestry of experiences has not only broadened my understanding of the global culinary landscape but also significantly sharpened my abilities in inventory management, quality control, HACCP plan development, and shrink/loss reduction.</p>
+
+    <!-- <a href="link-to-employer-or-project" class="btn">Learn More</a> -->
+  </div>
+</section>
+
+
+  
   <!-- ***** Contact ***** -->
 
   <section class="contact" id="contact">
     <div class="row">
-      <h2>Get in Touch</h2>
+      <h2>Get in Touch<br></h2><br>
+      
+      <p>Let's connect and create something extraordinary together!</p>
       <div class="contact__info">
 
         <a href="mailto:jbancroftsmith@gmail.com" class="btn">jbancroftsmith@gmail.com</a>

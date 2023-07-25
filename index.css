@@ -79,6 +79,10 @@ body {
 .row {
     max-width: var(--container-max-width);
     margin: 0 auto;
+    
+    
+    
+    
 }
 
 @media(max-width: 1340px) {
@@ -128,6 +132,11 @@ h3 {
     color: var(--white);
 }
 
+h3 {
+    font-size: var(--font-size-medium);
+    align-content: center;
+}
+
 .heading-primary {
     line-height: 1;
     font-size: var(--font-size-huge);
@@ -175,6 +184,9 @@ h3 {
 
 p {
     margin: var(--gutter-small-1) 0;
+    max-width: var(--container-normal-width);
+    
+
 }
 
 @media(max-width: 900px) {
