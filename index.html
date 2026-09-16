@@ -1,458 +1,149 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
-
-  <!-- CSS -->
-<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-
-<!-- JS, Popper.js, and jQuery -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
-
-  
-  <title>
-    Justin B. Smith | Portfolio
-  </title>
-
-  <meta name="description" content="Data Analyst">
-  
-  <meta name="keywords" content="Python, R, SQL, VBA, Tableau, Power BI, Google Suite" />
-  <link rel="stylesheet" href="index.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#163c35">
+  <meta name="description" content="Justin B. Smith combines operations experience with practical data, database, spreadsheet, and process improvement skills. Explore selected work and get in touch.">
+  <title>Justin B. Smith — Operations, Data & Practical Technology</title>
+  <link rel="icon" href="images/favicon.png" type="image/png">
+  <link rel="stylesheet" href="index.css">
 </head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-S4J3FCK74Y"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-S4J3FCK74Y');
-</script>
-
 <body>
-
-  <!-- ***** Header ***** -->
-
-  <header class="header" role="banner" id="top">
-    <div class="row">
-      <nav class="nav" role="navigation">
-        <li class="nav__item">
-          <a href="#skills" class="nav__link">Skills</a>
-        </li>
-        <li class="nav__item">
-          <a href="#about" class="nav__link">About</a>
-        </li>
-        
-        
-          
-          
-
-          <ul class="nav__items">
-            <li class="nav__item"><a href="#work" class="nav__link">Tech Projects</a></li>
-            <li class="nav__item">
-              <a href="#food-and-hospitality" class="nav__link">Food and Hospitality</a>
-            </li>
-
-          <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
-          </li>
-        </ul>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="wordmark" href="#top" aria-label="Justin B. Smith, home">J<span>·</span>B<span>·</span>S</a>
+      <nav aria-label="Main navigation">
+        <a href="#work">Selected work</a>
+        <a href="#background">Background</a>
+        <a href="#contact">Contact</a>
       </nav>
-    </div>
-    <div class="header__text-box row">
-      <div class="header__text">
-        <h1 class="heading-primary">
-          
-          <span>Justin B. Smith</span>
-        </h1>
-        <!-- Short paragraph ABOUT ME -->
-        <p>Results-driven Data Analyst, leveraging an eclectic blend of entrepreneurial and technical experience.</p><p>Based In Lansing, MI</p>
-        <a href="#contact" class="btn btn--pink">Get in touch</a>
-      </div>
     </div>
   </header>
 
-   
-    <!-- Section with bullet list of hard and soft skills -->
-  <main role="main">
-    
-    <section class="skills" id="skills">
-      <div class="row">
-        <div style="width: 90%; margin:auto; padding-top:20px; text-align: justify;">
-        <h3>Technical Skills</h3>
-        <p style="width: 100%; justify-content:space-between"></p>
-        
-          
-            <p>
-              <a href="#" title="Python programming for tasks such as data analysis, web scraping, and data cleaning" style="text-decoration:none;">Python</a> |
-              <a href="#" title="Proficient with MS Office suite" style="text-decoration:none;">MS Office/Excel</a> |
-              <a href="#" title="Experience in scraping web data for analysis" style="text-decoration:none;">Web Scraping</a> |
-              <a href="#" title="Google Earth, OpenStreetMap" style="text-decoration:none;">Mapping</a> |
-              <a href="#" title="Experience in JavaScript for web development" style="text-decoration:none;">JavaScript</a> |
-              <a href="#" title="PostgreSQL, MongoDB " style="text-decoration:none;">SQL</a> |
-              <a href="#" title="Tableau, Power BI, Google Data Studio" style="text-decoration:none;">Data Visualization</a> |
-              <a href="#" title="Pandas, NumPy, Matplotlib, Seaborn" style="text-decoration:none;">Data Analysis</a>
-              
-            </p>
-        
-        <h3>Soft Skills</h3>
-            <p>
-              
-              <a href="#" title="Ability to excel in a variety of roles and environments" style="text-decoration:none;">Adaptability</a> |
-              <a href="#" title="Communicating effectively with diverse groups of people" style="text-decoration:none;">Communication</a> |
-              <a href="#" title="Solving complex logistical or technical problems" style="text-decoration:none;">Problem Solving</a> |
-              <a href="#" title="Working in various team settings" style="text-decoration:none;">Teamwork</a> |
-              <a href="#" title="Leading teams in the hospitality sector" style="text-decoration:none;">Leadership</a> |
-              
-              <a href="#" title="Managing time effectively in high-stress environments" style="text-decoration:none;">Time Management</a> |
-              <a href="#" title="Paying attention to detail in tasks ranging from picking truffles to data cleaning" style="text-decoration:none;">Attention to Detail</a>
-            </p>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> Operations systems · data · process improvement</p>
+          <h1 id="hero-title">I make messy operations <em>easier to run.</em></h1>
+          <p class="hero-intro">I’m Justin Smith. After years in hospitality and small-business operations, I began building the spreadsheets, databases, and workflows I wished I’d had on the job. I now bring that practical perspective to data and technical work.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">Explore my work <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="mailto:jbancroftsmith@gmail.com">Get in touch <span aria-hidden="true">↗</span></a>
+          </div>
+          <p class="availability">Based in the Lansing, Michigan area · Interested in remote roles and project work</p>
+        </div>
+        <div class="hero-visual">
+          <div class="portrait-frame"><img src="images/photo.jpg" alt="Portrait of Justin Smith" width="520" height="520"></div>
+          <div class="hero-note"><span class="note-label">The through line</span><p>Understand the work. Organize the information. Build a useful tool.</p></div>
         </div>
       </div>
     </section>
-  
-  
-    
-    
-    <!-- ***** About ***** -->
 
-    <section class="about" id="about">
-      <div class="row">
-        <h2>About Me</h2>
-        <div class="about__content">
-          <div class="about__text">
+    <section class="intro-strip" aria-label="Areas of work">
+      <div class="container strip-grid">
+        <p><strong>01</strong> Records &amp; databases</p>
+        <p><strong>02</strong> Reporting &amp; analysis</p>
+        <p><strong>03</strong> Workflow improvement</p>
+      </div>
+    </section>
 
-            <p>
-              I'm a tech enthusiast who thrives on variety, adaptability, and learning. My path has taken me through the dynamic world of hospitality, the demanding field of logistics, and the creative space of startups. In each role, I found myself drawn to the unique challenges and intricate details that others often overlooked.</p>
-          <p>
-              From managing bustling kitchens and discerning the quality of artisanal charcuterie and cheeses to helping launch a canoe and kayak livery, and even dabbling in the ever-evolving field of medical cannabis - my journey has been anything but ordinary. One consistent thread has been my passion for solving problems, often with a technological slant. Whether routing delivery vehicles, designing websites, or managing social media, I've always found a way to incorporate my love for tech.
-          </p>
-              Recently, I embarked on a more formal tech journey by completing a six-month Data Analytics Bootcamp. This intensive training has equipped me with skills in Python, JavaScript, and Tableau, adding depth to my natural curiosity and problem-solving abilities. 
-          <p>
-              Whether it's cleaning up data, creating engaging visualizations, or mapping data onto Google Earth or OpenStreetMap, I've honed the ability to transform complex data into actionable insights. I'm excited to leverage this potent combination of diverse experience and technical acumen to tackle your business challenges.
-          </p> 
-          <p>
-              Let's connect and create something extraordinary together!
-          </p>
-          
-            <!-- Provide a link to your resume -->
-            <a href="./images/Justin Smith - Resume - 2023.pdf" class="btn">My Resume</a>
-          </div>
+    <section class="section work-section" id="work" aria-labelledby="work-title">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">Selected work</p><h2 id="work-title">Problems, approaches, outcomes.</h2></div>
+          <p>The most useful technical work starts with a real need. These examples span business operations and independent data projects.</p>
+        </div>
 
-          <div class="about__photo-container">
-            <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/smithj/photo.jpg" alt="" />
+        <div class="featured-grid">
+          <article class="case-card archive-card">
+            <div class="case-top"><span class="case-number">01 / Independent project</span><span class="case-status">Ongoing · private source material</span></div>
+            <div class="archive-content">
+              <div><p class="case-kicker">Sports publication archive</p><h3>From 9,039 scanned notecards to a reliable catalog</h3><p>I built a repeatable catalog-cleaning pipeline and review tools for a large collection of sports programs and publications. Image-based record IDs, duplicate review queues, and carefully approved team-name mappings let the catalog improve without erasing the original evidence.</p><a class="case-link" href="archive-catalog.html">Read the case study ↗</a></div>
+              <div class="archive-metric"><strong>9,039</strong><span>source cards matched to unique images and record IDs in the baseline</span></div>
+            </div>
+            <div class="case-footer"><span>Python</span><span>SQLite</span><span>OCR cleanup</span><span>Human review workflow</span></div>
+          </article>
+          <article class="case-card case-card-featured">
+            <div class="case-top"><span class="case-number">02 / Operations case study</span><span class="case-status">Internal work</span></div>
+            <div>
+              <p class="case-kicker">Cherry Capital Foods / Earthy Delights</p>
+              <h3>Inventory and costing, made easier to reconcile</h3>
+              <p>Receiving specialty products meant keeping inventory, freight, and cost information accurate across a busy distribution operation. I built an Excel and Access solution to improve a manual process and make the information easier to maintain and check.</p>
+            </div>
+            <div class="case-footer"><span>Excel</span><span>Access</span><span>Inventory records</span><span>Process design</span></div>
+          </article>
+
+          <article class="case-card case-card-featured">
+            <div class="case-top"><span class="case-number">03 / Operations case study</span><span class="case-status">Internal work</span></div>
+            <div>
+              <p class="case-kicker">RiverTown Adventures</p>
+              <h3>A reservation workflow built around real customers</h3>
+              <p>At a growing canoe and kayak business, reservations, payments, and trip changes all had to work at the front desk and in the field. I helped build and maintain the reservation system and documented procedures staff could use day to day.</p>
+            </div>
+            <div class="case-footer"><span>Reservations</span><span>Customer service</span><span>Documentation</span></div>
+          </article>
+        </div>
+
+        <div class="project-heading"><h3>Public projects</h3><p>Code, methods, and visual work you can inspect.</p></div>
+        <div class="project-grid">
+          <article class="project-card project-card-wide">
+            <div class="project-body"><p class="case-kicker">Python · APIs · Excel automation</p><h4>Printable Sports TV Listings</h4><p>A practical tool built for a real household need. It gathers sports schedules, reconciles inconsistent broadcast names with a custom channel lineup, and exports a readable, print-ready Excel guide. The repository includes the notebooks, examples, and notes on source limitations.</p><div class="project-links"><a href="https://github.com/JSmith1826/sports_on_tv_single_page/" target="_blank" rel="noopener noreferrer">Explore repository ↗</a></div></div>
+            <div class="pipeline" aria-label="Project workflow: schedule sources to data cleanup to printable Excel guide"><span>Schedule sources</span><b aria-hidden="true">↓</b><span>Normalize broadcasts &amp; channels</span><b aria-hidden="true">↓</b><strong>Printable Excel guide</strong></div>
+          </article>
+          <article class="project-card">
+            <a class="project-image" href="hockey-2526.html" aria-label="Read about the 2025–26 college hockey project"><img src="images/hockey-2526.png" alt="Chart comparing player age and class by college hockey conference in 2025–26" loading="lazy" width="760" height="420"></a>
+            <div class="project-body"><p class="case-kicker">Python · SQLite · visualization</p><h4>2025–26 College Hockey</h4><p>A season-long data project with incremental game collection, play-by-play exploration, player mapping, time-on-ice analysis, and conference visualizations. This is the current project, with a much broader scope than my original hockey repository.</p><div class="project-links"><a href="hockey-2526.html">Read case study ↗</a><a href="https://github.com/JSmith1826/college_hockey_2526" target="_blank" rel="noopener noreferrer">View repository ↗</a></div></div>
+          </article>
+          <article class="project-card">
+            <a class="project-image program-image" href="greatlakes.html" aria-label="View the unofficial Great Lakes Invitational program"><img src="images/gli_program/cover.png" alt="Cover of the unofficial 2023 Great Lakes Invitational program" loading="lazy" width="760" height="420"></a>
+            <div class="project-body"><p class="case-kicker">Editorial design · sports data · print</p><h4>Unofficial GLI Program</h4><p>An unofficial tournament booklet that brings together team history, rosters, statistics, and original visual design. It shows a different side of my work: turning detailed information into something people might enjoy browsing.</p><div class="project-links"><a href="greatlakes.html">Browse selected pages ↗</a></div></div>
+          </article>
+          <article class="project-card">
+            <a class="project-image" href="https://public.tableau.com/app/profile/justin.smith2295/viz/MichiganHighSchoolSportsAtlas/Main_Dash" target="_blank" rel="noopener noreferrer" aria-label="Open the Michigan High School Sports Atlas dashboard"><img src="images/sports-atlas.png" alt="Screenshot of the Michigan High School Sports Atlas dashboard" loading="lazy" width="760" height="420"></a>
+            <div class="project-body"><p class="case-kicker">Python · data cleaning · Tableau</p><h4>Michigan High School Sports Atlas</h4><p>Collected and standardized sports results and school information, then built an interactive dashboard for exploring teams, sports, and regions. The repository documents the collection and preparation steps.</p><div class="project-links"><a href="https://public.tableau.com/app/profile/justin.smith2295/viz/MichiganHighSchoolSportsAtlas/Main_Dash" target="_blank" rel="noopener noreferrer">View dashboard ↗</a><a href="https://github.com/JSmith1826/MHSAA" target="_blank" rel="noopener noreferrer">View code ↗</a></div></div>
+          </article>
+          <article class="project-card">
+            <a class="project-image" href="police-study.html" aria-label="Read about the historical policing data study"><img src="images/police-study.png" alt="Historical chart of line-of-duty deaths by state and cause, 1992 to 2018" loading="lazy" width="760" height="420"></a>
+            <div class="project-body"><p class="case-kicker">Data cleanup · visualization · exploratory</p><h4>Historical Policing Data Study</h4><p>A short exploration of historical line-of-duty death records and law-enforcement staffing data. I include it as an example of quick source gathering and visual thinking, with the limits of the comparison stated plainly.</p><div class="project-links"><a href="police-study.html">View the study ↗</a></div></div>
+          </article>
+        </div>
+        <p class="work-note">Business case studies describe work done inside organizations; their underlying data and systems are not public. The archive catalog is an ongoing independent project with private source material.</p>
+      </div>
+    </section>
+
+    <section class="section background-section" id="background" aria-labelledby="background-title">
+      <div class="container background-grid">
+        <div><p class="eyebrow">Background</p><h2 id="background-title">A technical mindset shaped by operations.</h2><p class="background-lead">I know what happens when the record is incomplete, the process lives in one person’s head, or the tool doesn’t fit the work.</p></div>
+        <div class="background-detail">
+          <p>My career began in hospitality, including seven years in banquet and restaurant operations at Michigan State University’s Kellogg Hotel &amp; Conference Center. I later worked across restaurants, specialty food distribution, outdoor recreation, and other small businesses. Along the way I took on purchasing, inventory, customer service, staff training, documentation, and systems work.</p>
+          <p>MSU’s Data Analytics Boot Camp gave me more formal practice with Python, SQL, JavaScript, and visualization. I use those tools alongside Excel and Access when they suit the problem. I am especially interested in reporting, records and data quality, operations analysis, implementation support, and practical automation.</p>
+          <div class="background-facts">
+            <div><strong>Operational grounding</strong><span>Real workflows, real customers, changing priorities</span></div>
+            <div><strong>Technical toolkit</strong><span>Excel, Access, Python, SQL, Tableau, JavaScript</span></div>
+            <div><strong>Current direction</strong><span>Remote technical and operations work, including part-time or contract projects</span></div>
           </div>
         </div>
       </div>
+    </section>
+
+    <section class="section more-section" aria-labelledby="more-title">
+      <div class="container">
+        <div class="section-heading compact"><div><p class="eyebrow">More applied systems work</p><h2 id="more-title">Other tools built around the work.</h2></div></div>
+        <div class="more-grid">
+          <article><span class="more-index">01</span><h3>Production tracking</h3><p>Built a database to track production work at Fresh Coast Seed Company, alongside operations responsibilities.</p></article>
+          <article><span class="more-index">02</span><h3>Small-business records</h3><p>Created practical tracking tools for work such as pooled tips, employee hours, purchasing, and inventory in hospitality settings.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-grid"><div><p class="eyebrow">Contact</p><h2 id="contact-title">Have a process that needs a better system?</h2><p>I’d be glad to talk about reporting, data cleanup, business systems, and operations support. A current résumé is available on request.</p></div><div class="contact-actions"><a class="button button-light" href="mailto:jbancroftsmith@gmail.com?subject=Portfolio%20inquiry">Email Justin <span aria-hidden="true">↗</span></a><a href="https://github.com/JSmith1826" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/jbancroftsmith/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div></div>
     </section>
   </main>
-
-
-        
-    
-    <!-- ***** Work ***** -->
-    
-
-
-
-
-    <h2>Data Analysis Projects</h2>
-    <section class="work" id="work">
-      <div class="row">
-
-        <div class="work__boxes">
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>College Hockey Statistics Project</h3>
-              <p>A comprehensive data analysis project centered around college hockey, leveraging Python for web scraping, data cleaning, and sophisticated analysis of historical and current season statistics. This project dissects the performance metrics, player production rates per capita, and strategic game decisions like empty net plays across various NCAA seasons.</p>
-              <p>Utilizing advanced statistical models and visualization techniques, the project offers unique insights into the dynamics of college hockey, including adjusted game scores and time spent leading or trailing in games. Detailed Jupyter notebooks document the methodologies used for data collection, transformation, and analysis, culminating in interactive visualizations that highlight trends and patterns within the sport.</p>
-              <p>The ultimate aim is to provide fans, analysts, and enthusiasts with a deeper understanding of the factors that influence college hockey outcomes and player development. This ongoing work showcases not just the analytical potential within sports data but also the rich history and evolving strategies of college hockey.</p>
-                
-                
-                <p>DataSource: CollegeHockeyNews.com
-              </p>
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" class="client__logo"/>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg" class="client__logo"/>
-            <!-- <img src="./images/software/tableau_blue.png" class="client__logo" alt="Tableau" /> -->
-              
-              </ul>
-
-              <div class="work__links">
-                <a href="https://github.com/JSmith1826/college_hockey" target="_blank" class="link__text">
-                  Project Github and Gallery <span>&rarr;</span>
-                </a>
-                <a href="https://github.com/JSmith1826/college_hockey" title="College Hockey Project" target="_blank">
-                  <img src="./images/github.svg" class="work__code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/smithj/college_hockey1.png" class="work__image" alt="College Hockey Title Image 1" />
-            </div>
-          </div>
-
-
-
-
-
-
-
-        
-        <div class="work__boxes">
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>The Michigan High School Sports Atlas</h3>
-              <p>
-                Using Python tools to scrape, clean, match, catagorize, slice, analyse and visualize athletic results from 10 different high school sports over 10 years.</p>
-                <p>Tableau Public was used to create a dashboard that allows users to explore the data and compare schools, conferences, and regions.
-                </p>
-                
-                
-                <p>DataSource: MHSAA.com
-              </p>
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" class="client__logo"/>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg" class="client__logo"/>
-            <img src="./images/software/tableau_blue.png" class="client__logo" alt="Tableau" />
-              
-              </ul>
-
-              <div class="work__links">
-                <a href="https://public.tableau.com/app/profile/justin.smith2295/viz/MichiganHighSchoolSportsAtlas/Main_Dash" target="_blank" class="link__text">
-                  Full Dashboard <span>&rarr;</span>
-                </a>
-                <a href="https://github.com/JSmith1826/MHSAA" title="MHSAA Sports Atlas" target="_blank">
-                  <img src="./images/github.svg" class="work__code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/smithj/tableau/atlas_1.png" class="work__image" alt="Baseball View 1" />
-            </div>
-          </div>
-          <!-- Each div with the work__box class is a project. -->
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Baseball Park Project</h3>
-              <p>
-                An ongoing machine learning project to evaluate baseball fields using satellite mapping, spatial data 
-                , weather data and game results in an effort to understand which
-                 parameters play large rolls in the outcome of baseball games </p>
-                <p>So far the project that plots over 1000 baseball parks ranging from youth fields to 
-                  major league and international stadiums. A future goal is to use AI to better identify and plot the locations and dimentions of 
-                baseball parks using publically available satellite</p>
-                   <p>In addition to 10 years of Michigan high school baseball results data from over 12,000 NCAA Division 1 college
-                     baseball games was scraped from ESPN.com and
-                     matched to geographic location with historical weather data in order to 
-                    create a dataset that can be used to train a machine learning model to
-                     predict the outcome of baseball games.</p>
-
-                            
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" class="client__logo"/>         
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg" class="client__logo"/>
-            
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="client__logo"/>
-            
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" class="client__logo"/>  
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" class="client__logo"/>
-              <ul class="work__list">
-                <li>Google Earth</li>
-               
-              </ul>
-
-              <div class="work__links">
-                <a href="https://jsmith1826.github.io/BB_parks/" target="_blank" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="https://github.com/JSmith1826/Baseball_ML" title="GitHub Repo" target="_blank">
-                  <img src="./images/github.svg" class="work__code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/smithj/HS_1.png" class="work__image" alt="Baseball Park Project" />
-            </div>
-          </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Food Deserts and Community Health</h3>
-              <p>
-                Applying machine learning to identify how food access impacts community health outcomes.
-              </p>
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" class="client__logo"/>
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg" class="client__logo"/>
-              
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="client__logo"/>
-    
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" class="client__logo"/>
-              <img src="./images/software/tableau_blue.png" class="client__logo" alt="Tableau" />  
-                                                 
-              
-
-
-              <div class="work__links">
-                <a href="https://github.com/JSmith1826/Food_Deserts_Project" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="https://github.com/JSmith1826/Food_Deserts_Project">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/smithj/poverty_rate.png" class="work__image" alt="Project 1" />
-            </div>
-          </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Pretty Maps Playground</h3>
-              <p>
-                Untilizing the pretty maps python library and OpenStreetMaps data to create unique views of the world.
-              </p>
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" class="client__logo"/>
-              <ul class="work__list">
-                
-                <li>OpenStreetMaps</li>
-                
-                
-              </ul>
-
-              <div class="work__links">
-                <a href="https://github.com/JSmith1826/PrettyMaps_playground" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="#">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/smithj/pretty_maps.png" class="work__image" alt="Project 3" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-  
-    
-
-
-<!-- ***** Food & Hospitality ***** -->
-
-<!-- VERSION 1 -->
-
-<section id="food-and-hospitality">
-  <div class="row" style="width: 90%">
-    <h2>Food and Hospitality Experience</h2>
-    <p>With over 14 years of diverse experience in the food and hospitality industry, I have honed a wide range of skills and developed a deep understanding of food ingredients, handling, and processing techniques. </p>
-    <div id="homeCookingCarousel" class="carousel slide carousel-fade" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-interval="10000">
-          <h3>Independent Restaurants and Startups</h3>
-          <img class="d-block w-100" src="images/food/food_collage/Independent Restuarants.png" alt="Independent Restaurants">
-        </div>
-        <div class="carousel-item" data-interval="10000">
-          <h3>Supply Chains: Local, Wild, and Exotic</h3>
-          <img class="d-block w-100" src="images/food/food_collage/Wild & Local Supply Chain.png" alt="Supply Chain and Logistics">
-        </div>
-        <div class="carousel-item" data-interval="10000">
-          <h3>Large and Special Event Experience</h3>
-          <img class="d-block w-100" src="images/food/food_collage/Large Events & Banquets.png" alt="Large and Special Events">
-        </div>
-        <div class="carousel-item" data-interval="10000">
-          <h3>Home Cooking</h3>
-          <img class="d-block w-100" src="images/food/food_collage/Home Cooking.png" alt="Home Cooking">
-        </div>
-        <div class="carousel-item" data-interval="10000">
-          <h3>Home Baking</h3>
-          <img class="d-block w-100" src="images/food/food_collage/Baking.png" alt="Home Baking">
-        </div>
-      </div>
-
-      <a class="carousel-control-prev" href="#homeCookingCarousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#homeCookingCarousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-    
-    <p style="text-align: justify">
-    <p>My journey started like most in the hospitality industy washing dishes at a pizza and sub shop as a young teen
-      eventually leading to roles
-       such as Sous Chef at back top back Best New Restuarant Winners, Cheese Monger, Warehouse Manager, and Quality Control Specialist.</p>
-       
-       <p>Throughout my career, I've had the privilege of working in an eclectic array of culinary environments, 
-        from fine dining establishments to innovative mobile food operations. The journey has allowed me to 
-        hone my skills across a broad spectrum of cuisines, and to collaborate with a diverse and talented cohort of
-         chefs hailing from England, the US, Austria, and India. Notably, as part of a Visiting Chef Series at my long term employeer,
-          where I had the opportunity to work alongside industry luminaries, absorbing invaluable insights and techniques. </p>
-          
-          <p>This rich tapestry of experiences has not only broadened my understanding of the global culinary landscape 
-            but also significantly sharpened my abilities in inventory management, quality control, HACCP plan development, 
-            and shrink/loss reduction.</p>
-          </p>
-    <!-- <a href="link-to-employer-or-project" class="btn">Learn More</a> -->
-  </div>
-</section>
-
-
-  
-  <!-- ***** Contact ***** -->
-
-  <section class="contact" id="contact">
-    <div style="width: 60%; margin:auto; padding-top:20px; text-align: justify;">
-      <h2>Get in Touch<br></h2>
-      
-      <p>Let's connect and create something extraordinary together!</p>
-      <div class="contact__info">
-
-        <a href="mailto:jbancroftsmith@gmail.com" class="btn">jbancroftsmith@gmail.com</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ***** Footer ***** -->
-
-  <footer role="contentinfo" class="footer">
-    
-      <!-- Update the links to point to your accounts -->
-      <ul class="footer__social-links">
-        
-        <li class="footer__social-link-item">
-          <a href="https://github.com/JSmith1826/" title="Github Profile">
-            <img src="./images/github.svg" class="footer__social-image" alt="Github">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href=https://www.linkedin.com/in/jbancroftsmith/">
-            <img src="./images/linkedin.svg" title="Linkedin Profile" class="footer__social-image" alt="Linkedin">
-          </a>
-        </li>
-      </ul>
-
-      
-    
-  </footer>
-
-  <a href="#top" class="back-to-top" title="Back to Top">
-    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
-  </a>
-  <script src="./index.js"></script>
+  <footer class="site-footer"><div class="container footer-inner"><span>© <span id="year">2026</span> Justin B. Smith</span><span>Built with straightforward HTML and CSS.</span><a href="#top">Back to top ↑</a></div></footer>
+  <script src="index.js" defer></script>
 </body>
-
 </html>
